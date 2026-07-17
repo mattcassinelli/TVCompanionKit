@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		037754FD63660059194E2B78 /* CompanionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D43E4DC8135414C3ECC0AB /* CompanionProtocol.swift */; };
+		313D68333F5FFC869330150C /* MessageFraming.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC89CBD2C6B8402C9CE09B2E /* MessageFraming.swift */; };
+		3154214836D392BE3E611A38 /* PresentationTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BA886A1B8D55AADAE6E6EC /* PresentationTheme.swift */; };
+		40D6D7DE6820DBAEFC5E31C5 /* MessageFramingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2BCF3793E64DFAE3F72982 /* MessageFramingTests.swift */; };
+		4A30AAB29BA3070BEE78E7A4 /* MessageFraming.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC89CBD2C6B8402C9CE09B2E /* MessageFraming.swift */; };
+		7C60E40A61D548490289ADF3 /* PresentationTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BA886A1B8D55AADAE6E6EC /* PresentationTheme.swift */; };
+		7EA3B49A30993BED8374192E /* CompanionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D43E4DC8135414C3ECC0AB /* CompanionProtocol.swift */; };
+		82B831BC83E6D3F718007136 /* PeerConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF0398934EF9696F29B25A5 /* PeerConnection.swift */; };
+		848F6E16FE426CA2B885F92A /* TVCompanionPadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BD8789B3BE54965228B76F /* TVCompanionPadApp.swift */; };
+		929E6B653048315C67EDE08B /* TVSessionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F93B6C36F9C02BB5BC00F4 /* TVSessionModel.swift */; };
+		95741CD21882A6DDFFC1C025 /* PresentationReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF325B041D292EC78D5A5DCE /* PresentationReducer.swift */; };
+		963A2F5A0FE791D53F900513 /* MessageFraming.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC89CBD2C6B8402C9CE09B2E /* MessageFraming.swift */; };
+		A2801EE99A31F23E83448199 /* PresentationReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF325B041D292EC78D5A5DCE /* PresentationReducer.swift */; };
+		AD6834DF7873C728817F2CB7 /* TVContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF41DDA21F7C8B4BAD06EF9 /* TVContentView.swift */; };
+		B57BCB3D556DE9F87F3FD749 /* PeerConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF0398934EF9696F29B25A5 /* PeerConnection.swift */; };
+		C0F21544AFE0031E6EBD683B /* PresentationReducerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15899005BC0ECF2B5341B080 /* PresentationReducerTests.swift */; };
+		C442D1AB132555CB5D53F3E1 /* CompanionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D43E4DC8135414C3ECC0AB /* CompanionProtocol.swift */; };
+		C54EF0D253E8717D519E23CB /* PadSessionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26385ADFA67CF5A302BD2BC /* PadSessionModel.swift */; };
+		C5D04C17A925ECD0281EAC64 /* TVCompanionTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EF663F2A12293D21C7B601 /* TVCompanionTVApp.swift */; };
+		D31847222ACEC3EF574BAA06 /* PresentationReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF325B041D292EC78D5A5DCE /* PresentationReducer.swift */; };
+		DC105A3F52D149F0CF33BF83 /* PadContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCA3B8726439B78EFFB8E19 /* PadContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D2BCF3793E64DFAE3F72982 /* MessageFramingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageFramingTests.swift; sourceTree = "<group>"; };
+		15899005BC0ECF2B5341B080 /* PresentationReducerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationReducerTests.swift; sourceTree = "<group>"; };
+		16BA886A1B8D55AADAE6E6EC /* PresentationTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationTheme.swift; sourceTree = "<group>"; };
+		23F93B6C36F9C02BB5BC00F4 /* TVSessionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVSessionModel.swift; sourceTree = "<group>"; };
+		2A456EF731379AB66B315FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3FF41DDA21F7C8B4BAD06EF9 /* TVContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVContentView.swift; sourceTree = "<group>"; };
+		49EF663F2A12293D21C7B601 /* TVCompanionTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCompanionTVApp.swift; sourceTree = "<group>"; };
+		4CCDA9BCB9A3DD0C76F5CFCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		59D43E4DC8135414C3ECC0AB /* CompanionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionProtocol.swift; sourceTree = "<group>"; };
+		73E6578BC056028F6BA20478 /* TVCompanionTV.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TVCompanionTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		752D0506E35DA436C55D79BD /* TVCompanionPad.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TVCompanionPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FDFE4D38C3949D121B768BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A26385ADFA67CF5A302BD2BC /* PadSessionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadSessionModel.swift; sourceTree = "<group>"; };
+		AF325B041D292EC78D5A5DCE /* PresentationReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationReducer.swift; sourceTree = "<group>"; };
+		B15E81027AE374D048A052E3 /* TVCompanionKitTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = TVCompanionKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC89CBD2C6B8402C9CE09B2E /* MessageFraming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageFraming.swift; sourceTree = "<group>"; };
+		CCCA3B8726439B78EFFB8E19 /* PadContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadContentView.swift; sourceTree = "<group>"; };
+		E5BD8789B3BE54965228B76F /* TVCompanionPadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCompanionPadApp.swift; sourceTree = "<group>"; };
+		FDF0398934EF9696F29B25A5 /* PeerConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerConnection.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		61BCAFB05575EA387FCE171D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B15E81027AE374D048A052E3 /* TVCompanionKitTests.xctest */,
+				752D0506E35DA436C55D79BD /* TVCompanionPad.app */,
+				73E6578BC056028F6BA20478 /* TVCompanionTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BD0878EEA3B539ABC5C0947 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				2A456EF731379AB66B315FE0 /* Info.plist */,
+				CCCA3B8726439B78EFFB8E19 /* PadContentView.swift */,
+				A26385ADFA67CF5A302BD2BC /* PadSessionModel.swift */,
+				E5BD8789B3BE54965228B76F /* TVCompanionPadApp.swift */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		835C9E85D93F49B7F46B29BB /* TV */ = {
+			isa = PBXGroup;
+			children = (
+				8FDFE4D38C3949D121B768BB /* Info.plist */,
+				49EF663F2A12293D21C7B601 /* TVCompanionTVApp.swift */,
+				3FF41DDA21F7C8B4BAD06EF9 /* TVContentView.swift */,
+				23F93B6C36F9C02BB5BC00F4 /* TVSessionModel.swift */,
+			);
+			path = TV;
+			sourceTree = "<group>";
+		};
+		A7E0B24298D20D6F4215214E /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4CCDA9BCB9A3DD0C76F5CFCB /* Info.plist */,
+				0D2BCF3793E64DFAE3F72982 /* MessageFramingTests.swift */,
+				15899005BC0ECF2B5341B080 /* PresentationReducerTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		CA9A93C44B0F95738A3B136B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				59D43E4DC8135414C3ECC0AB /* CompanionProtocol.swift */,
+				CC89CBD2C6B8402C9CE09B2E /* MessageFraming.swift */,
+				FDF0398934EF9696F29B25A5 /* PeerConnection.swift */,
+				AF325B041D292EC78D5A5DCE /* PresentationReducer.swift */,
+				16BA886A1B8D55AADAE6E6EC /* PresentationTheme.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DD70FDEBA9CBF7F0A36F6805 = {
+			isa = PBXGroup;
+			children = (
+				7BD0878EEA3B539ABC5C0947 /* iPad */,
+				CA9A93C44B0F95738A3B136B /* Shared */,
+				A7E0B24298D20D6F4215214E /* Tests */,
+				835C9E85D93F49B7F46B29BB /* TV */,
+				61BCAFB05575EA387FCE171D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A4681233C3D8B5B70752FB8 /* TVCompanionTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73279DED13E4AB24ABF6CB38 /* Build configuration list for PBXNativeTarget "TVCompanionTV" */;
+			buildPhases = (
+				E3F4AA753D61B714CB519D22 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVCompanionTV;
+			packageProductDependencies = (
+			);
+			productName = TVCompanionTV;
+			productReference = 73E6578BC056028F6BA20478 /* TVCompanionTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C67B2DCA9F7672C3A38BF1A2 /* TVCompanionPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40E28F9E1F54CBD450F6228 /* Build configuration list for PBXNativeTarget "TVCompanionPad" */;
+			buildPhases = (
+				C9D4E058C862365C431347CF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVCompanionPad;
+			packageProductDependencies = (
+			);
+			productName = TVCompanionPad;
+			productReference = 752D0506E35DA436C55D79BD /* TVCompanionPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECBD96E421932B0A15447E4C /* TVCompanionKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 746BD61211D730D129B5911A /* Build configuration list for PBXNativeTarget "TVCompanionKitTests" */;
+			buildPhases = (
+				4579C7D95B7B5286E1715F0D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVCompanionKitTests;
+			packageProductDependencies = (
+			);
+			productName = TVCompanionKitTests;
+			productReference = B15E81027AE374D048A052E3 /* TVCompanionKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2597B34E7DA23ABD4F030173 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 2BD61F8BDEC24063E25B98C4 /* Build configuration list for PBXProject "TVCompanionKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = DD70FDEBA9CBF7F0A36F6805;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECBD96E421932B0A15447E4C /* TVCompanionKitTests */,
+				C67B2DCA9F7672C3A38BF1A2 /* TVCompanionPad */,
+				4A4681233C3D8B5B70752FB8 /* TVCompanionTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4579C7D95B7B5286E1715F0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C442D1AB132555CB5D53F3E1 /* CompanionProtocol.swift in Sources */,
+				4A30AAB29BA3070BEE78E7A4 /* MessageFraming.swift in Sources */,
+				40D6D7DE6820DBAEFC5E31C5 /* MessageFramingTests.swift in Sources */,
+				95741CD21882A6DDFFC1C025 /* PresentationReducer.swift in Sources */,
+				C0F21544AFE0031E6EBD683B /* PresentationReducerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9D4E058C862365C431347CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037754FD63660059194E2B78 /* CompanionProtocol.swift in Sources */,
+				313D68333F5FFC869330150C /* MessageFraming.swift in Sources */,
+				DC105A3F52D149F0CF33BF83 /* PadContentView.swift in Sources */,
+				C54EF0D253E8717D519E23CB /* PadSessionModel.swift in Sources */,
+				B57BCB3D556DE9F87F3FD749 /* PeerConnection.swift in Sources */,
+				A2801EE99A31F23E83448199 /* PresentationReducer.swift in Sources */,
+				3154214836D392BE3E611A38 /* PresentationTheme.swift in Sources */,
+				848F6E16FE426CA2B885F92A /* TVCompanionPadApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F4AA753D61B714CB519D22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA3B49A30993BED8374192E /* CompanionProtocol.swift in Sources */,
+				963A2F5A0FE791D53F900513 /* MessageFraming.swift in Sources */,
+				82B831BC83E6D3F718007136 /* PeerConnection.swift in Sources */,
+				D31847222ACEC3EF574BAA06 /* PresentationReducer.swift in Sources */,
+				7C60E40A61D548490289ADF3 /* PresentationTheme.swift in Sources */,
+				C5D04C17A925ECD0281EAC64 /* TVCompanionTVApp.swift in Sources */,
+				AD6834DF7873C728817F2CB7 /* TVContentView.swift in Sources */,
+				929E6B653048315C67EDE08B /* TVSessionModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2AA8560F52B10EF3B3B11A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.supercomputerstudios.TVCompanionKitDemo;
+				PRODUCT_NAME = TVCompanionTV;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		32947C85AA798F16F295F9FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.supercomputerstudios.TVCompanionKitTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		390512720A15C461965B44D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = iPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.supercomputerstudios.TVCompanionKitDemo;
+				PRODUCT_MODULE_NAME = TVCompanionPad;
+				PRODUCT_NAME = TVCompanionPad;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		47566A8634FAB9E0938BD060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Release;
+		};
+		59308AB007F5B2A5E47850DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.supercomputerstudios.TVCompanionKitTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8743ADFCB458234140CE648B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		CD75DB31C39E7E728CAE2428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = iPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.supercomputerstudios.TVCompanionKitDemo;
+				PRODUCT_MODULE_NAME = TVCompanionPad;
+				PRODUCT_NAME = TVCompanionPad;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		E0346C8F47AFFA89F7DA012E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.supercomputerstudios.TVCompanionKitDemo;
+				PRODUCT_NAME = TVCompanionTV;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BD61F8BDEC24063E25B98C4 /* Build configuration list for PBXProject "TVCompanionKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8743ADFCB458234140CE648B /* Debug */,
+				47566A8634FAB9E0938BD060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		73279DED13E4AB24ABF6CB38 /* Build configuration list for PBXNativeTarget "TVCompanionTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AA8560F52B10EF3B3B11A8B /* Debug */,
+				E0346C8F47AFFA89F7DA012E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		746BD61211D730D129B5911A /* Build configuration list for PBXNativeTarget "TVCompanionKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32947C85AA798F16F295F9FB /* Debug */,
+				59308AB007F5B2A5E47850DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C40E28F9E1F54CBD450F6228 /* Build configuration list for PBXNativeTarget "TVCompanionPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390512720A15C461965B44D3 /* Debug */,
+				CD75DB31C39E7E728CAE2428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2597B34E7DA23ABD4F030173 /* Project object */;
+}
